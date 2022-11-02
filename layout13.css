@@ -1,0 +1,106 @@
+.header{
+	background-color:greenyellow;
+	
+}
+
+.header .header-fc{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+.header .header-fc .header-left{
+	width:180px;
+	font-size:20px;
+
+	text-align:center;
+	padding:20px;
+}
+.header .header-fc .header-right{
+	width:0px;
+	font-size:20px;
+	
+	text-align:center;
+	padding:20px;
+}
+.banner{
+	background-color:azure;
+}
+
+.banner{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+.banner .banner-left{
+	width:40%;
+	height:150px;
+	background-color:lightgray;
+	font-size:30px;
+	margin-top:50px;
+	margin-left:30px;
+	
+	text-align:center;
+	
+}
+.banner .banner-right{
+	width:40%;
+	text-align:center;
+	height:150px;
+	background-color:white;
+
+	font-size:30px;
+	font-family:verdana;
+	margin-top:50px;
+	
+}
+.show{
+	background-color:peru;
+	height:80px;
+	width:80%;
+margin:auto;
+
+}
+
+.show-fc{
+	display:flex;
+
+}
+.show-fc .content{
+	font-size:25px;
+	padding-top:15px;
+	
+}
+.card{
+	background-color:azure;
+	height:200px;
+}
+.card .card-fc{
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+}	
+.card .card-fc .info{
+	width:30%;
+	height:150px;
+	background-color:gray;
+    text-align:center;
+	padding-top:50px;
+}
+.copy{
+	background-color:fuchsia;
+}
+
+.copy.copy-fc{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+.copy .copy-fc {
+	
+	width:180px;
+	height:60px;
+	text-align:center;
+	padding-top:20px;
+	font-size:25px;
+	margin:10px;
+}
